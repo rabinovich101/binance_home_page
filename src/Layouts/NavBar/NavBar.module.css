@@ -1,0 +1,45 @@
+.nav_main{
+    display: flex;
+    padding: 0 1em;
+    justify-content: space-between;
+    height: 6.4rem;
+}
+.submenu_li .submenu_li_content {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 3;
+    
+}
+.submenu_li_content_desc {
+    font-size: 0.9rem;
+    color: var(--secondery-gray);
+}
+div .submenu_li {
+    padding: 2rem;
+    width: 100%;
+}
+div .submenu_li:hover {
+    background-color: var(--primary-gray);
+    border-radius: 4px;
+    transition: all 0.5s;
+}
+div .submenu_li:hover .arrowright{
+    opacity: 1;
+    fill: var(--secondery-yellow);
+    width: 2.1rem;
+    height: 2.1rem;
+    transition: all 0.31s ease-in;
+}
+div .submenu_li a {
+    padding: 0;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+}
+
+.submenu_li .arrowright {
+    margin-left: auto;
+    opacity: 0;
+}
