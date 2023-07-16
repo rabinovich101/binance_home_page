@@ -1,0 +1,39 @@
+.marketing{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    color: #1e2329;
+    background-color: #fef6d8;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    cursor: pointer;
+    max-height: 4rem;
+}
+.main_link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4rem;
+}
+.main_link svg:first-child{
+    height: 2rem;
+    width: 2rem;
+    color: #F0B90B;
+}
+.main_link svg:last-child{
+    height: 1.6rem;
+    width: 1.9rem;
+    fill: rgb(71, 77, 87);
+}
+.main_link > .marketing_text{
+    font-size: 1.4rem;
+    color: rgb(71, 77, 87);
+}
+
+@media(max-width: 480px){
+    .markting{
+        display: none;
+    }
+}
