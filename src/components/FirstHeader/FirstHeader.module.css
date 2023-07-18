@@ -1,0 +1,299 @@
+.first_header {
+    display: flex;
+    max-width: 130rem;
+    align-self: center;
+    width: 100%;
+}
+.left_header{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 2rem; 
+    height: 48rem;
+}
+.right_header {
+    display: flex;
+    flex: 1;
+    min-height: 48rem;
+}
+.first_h1{
+    font-weight: 600;
+    color: #1E2329;
+    font-size: 4rem;
+    line-height: 4.8rem;
+    margin-right: 10.6rem;
+}
+
+.right_header > .nft_img{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    width: 100%;
+}
+
+.marketing_small > svg:first-child{
+    width: 2.8rem;
+    height: 2.7rem;
+    color: #F0B90B;
+}
+.marketing_small > svg:last-child{
+    width: 2rem;
+    height: 2rem;
+    fill: #929aa5;
+}
+.header_login_sign{
+    display: flex;
+	flex-direction: column;
+	gap: 3rem;
+}
+.marketing_small{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;    
+}
+.marketing_small > svg:first-child{
+    width: 2.8rem;
+    height: 2.7rem;
+    color: #f0b90b;  
+}
+
+.marketing_small > svg:last-child{
+    width: 2rem;
+    height: 2rem;
+    fill: #929aa5; 
+}
+
+.marketing_small > .text_marketing{
+    color: #1e2329;
+	font-size: 2rem;
+}
+.signup_login > .signup_login_link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    user-select: none;
+    cursor: pointer;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-align: center;
+    background-color: #FCD535;
+    width: 56%;
+    border-radius: 4px;
+    word-break: keep-all;
+    outline: none;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    line-height: 24px;
+}
+.signup_login_text{
+    color: #181A20;
+}
+.signup_login_link:hover{
+    background-color: #f8d87f;
+}
+.hr_element{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.8rem;
+}
+.hr_element_first{
+    height: 1px;
+    width: 17.5%;
+    background-color: #EAECEF;
+}
+.hr_element_text{
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+}
+.hr_element_second{
+    height: 1px;
+    width: 17.5%;
+    background-color: #EAECEF;
+}
+.signup_buttons{
+    display: flex;
+    gap: 3rem;
+}
+.google_button{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    text-decoration: none;
+    padding: 2.4rem 4.8rem;
+    height: 4.8rem;
+    background-color: #EAECEF;
+    justify-content: center;
+    border-radius: 4px;
+    align-items: center;
+}
+.google_button > img {
+    width: 1.6rem;
+    height: 1.6rem;
+}
+.google_text{
+    color: #1E2329;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 24px;
+}
+.apple_button{
+    display: flex;
+    gap: 1rem;
+    text-decoration: none;
+    height: 4.8rem;
+    background-color: #EAECEF;
+    justify-content: center;
+    border-radius: 4px;
+    padding: 2.4rem 4.8rem;
+    align-items: center;
+}
+.apple_button > .apple_text{
+    color: #1E2329;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 24px;
+}
+.apple_button > svg:first-child{
+    width: 1.6rem;
+    height: 1.6rem;
+}
+
+
+@media(max-width: 1035px) {
+    .first_header{
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+    .right_header{
+        width: 100%;
+        height: 100%;
+        order: 1;
+    }
+    .left_header{
+        order: 2;
+        align-items: stretch;
+        width: 100%;
+    }
+    .first_h1{
+        align-self: stretch;
+        font-size: 3rem;
+    }
+    .signup_login{
+        justify-content: stretch;
+        width: 100%;
+    }
+    .signup_login > .signup_login_link {
+        align-items: stretch;
+        width: 100%;
+        align-self: stretch;
+    }
+    .hr_element{
+        justify-content: center;
+    }
+    .signup_buttons{
+        justify-content: space-between;
+    }
+    .google_button{
+        justify-content: center;
+        width: 100%;
+    }
+    .apple_button{
+        justify-content: center;
+        width: 100%;
+    }
+    .right_header .nft_img{
+        padding-inline: 10rem;
+    }
+}
+@media(max-width:770px){
+    .right_header .nft_img{
+        padding-inline: 2rem;
+    }
+}
+@media(max-width:640px){
+    .right_header .nft_img > img{
+        padding-inline: 0;
+    }
+}
+@media(max-width:480px) {
+    .right_header{
+        display: none;
+    }
+    .first_h1{
+        font-size: 3.2rem;
+        margin: 0;
+        padding: 0 2rem;
+        line-height: 4rem;
+    }
+    .header_login_sign{
+        flex-grow: 1;
+    }
+    .marketing_small{
+        margin: 0 2rem;
+    }
+    .marketing_small > .text_marketing{
+        font-size: 1.6rem;
+    }
+    .signup_login{
+        display: flex;
+        justify-content: flex-start;
+        flex-grow: 1;
+    }
+    .signup_login > .signup_login_link {
+        flex-grow: 1;
+        margin: 0 2rem;
+    }
+    .signup_login_link > svg:first-child{
+        width: 2rem;
+        height: 2rem;
+    }f
+    .signup_login_text{
+        font-size: 1.9rem;
+    }
+    .hr_element{
+        justify-content: center;
+    }
+    .signup_buttons{
+        justify-content: space-between;
+        gap: 3rem;
+        margin: 0 2rem;
+    }
+    .google_button{
+        padding: 2.6rem 5.75rem;
+    }
+    .apple_button{
+        padding: 2.6rem 5.75rem;
+    }
+}
+
+@media(max-width:360px){
+    .google_button{
+        padding: 1.55rem 2.1rem;
+    }
+    .apple_button{
+        padding:  1.55rem 2.1rem;
+    }
+    .signup_buttons{
+        gap: 1.5rem;
+    }
+    .first_h1{
+        font-size: 2.5rem;
+        padding: 0 1rem;
+    }
+    .signup_login > .signup_login_link{
+        padding-inline: 1rem;
+    }
+    
+}
+
