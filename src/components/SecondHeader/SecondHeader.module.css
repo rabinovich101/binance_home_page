@@ -1,0 +1,81 @@
+.secondheader{
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 150rem;
+    flex-grow: 1;
+    gap: 15rem;
+    padding: 8rem 0;
+}
+.ten_pracent_description,
+.million120_description,
+.currencies350_description,
+.billion76_description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.billion76_title,
+.ten_pracent_title,
+.million120_title,
+.currencies350_title{
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+}
+.billion76,
+.currencies350,
+.ten_pracent,
+.million120{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+@media(max-width:940px){
+    .secondheader{
+        justify-content:flex-start;
+        gap: 15rem;
+        flex-wrap: wrap;
+    }
+    .billion76,
+    .currencies350,
+    .ten_pracent,
+    .million120{
+        justify-content: flex-start;
+        flex: 1;
+        flex-basis: 25%;
+    }
+}
+@media(max-width:480px){
+    .billion76,
+    .currencies350,
+    .ten_pracent,
+    .million120 {
+        flex: 1;
+        align-items: flex-start;
+        gap: 0.2rem;
+        padding: 1rem 0.5rem;
+}
+    .ten_pracent_description,
+    .million120_description,
+    .currencies350_description,
+    .billion76_description{
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 16px;
+    }
+    .billion76_title,
+    .ten_pracent_title,
+    .million120_title{
+        font-weight: 600;
+        font-size: 2.4rem;
+        line-height: 3.2rem;
+    }
+    .currencies350_title{
+        font-weight: 600;
+        font-size: 2.4rem;
+        line-height: 2.4rem;
+    }
+}
