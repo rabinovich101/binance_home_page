@@ -1,0 +1,292 @@
+.popularcryptocurrencies{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 6rem 16rem;
+}
+.popularcryptocurrencies_title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.popularcryptocurrencies_title > .popularcryptocurrencies_title_1 {
+    font-weight: 600;
+    font-size: 4rem;
+    line-height: 4.8rem;
+    color: #1E2329;
+}
+.popularcryptocurrencies_title > .popularcryptocurrencies_title_2 {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    text-decoration: none;
+}
+.popularcryptocurrencies_title_2  > .popularcryptocurrencies_title_2_item_1 {
+    color: #707A8A;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 2rem;
+}
+.popularcryptocurrencies_title_2:hover svg{
+    fill: #C99400;
+}
+.popularcryptocurrencies_title_2:hover .popularcryptocurrencies_title_2_item_1{
+    color: #C99400;
+}
+/*------------------------subtitles-----------------------------*/
+
+.popularcryptocurrencies_subtitles{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 12rem;padding-top: 16px;
+}
+.popularcryptocurrencies_subtitles > .popularcryptocurrencies_subtitle_name {
+    font-size: 1.4rem;
+    color: #707A8A;
+    flex: 1;
+}
+.popularcryptocurrencies_subtitles > .popularcryptocurrencies_subtitle_lastprice {
+    font-size: 1.4rem;
+    color: #707A8A;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+.popularcryptocurrencies_subtitles > .popularcryptocurrencies_subtitle_name_24change {
+    font-size: 1.4rem;
+    color: #707A8A;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+.popularcryptocurrencies_subtitles > .popularcryptocurrencies_subtitle_name_marketcap {
+    font-size: 1.4rem;
+    color: #707A8A;
+    flex: 1;
+    display: flex;
+    
+    justify-content: center;
+}
+
+/*------------------------coins-----------------------------*/
+.popularcryptocurrencies_coins{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;    
+}
+.popularcryptocurrencies_coins_bnb{
+    display: flex;
+    justify-content: flex-start;
+    text-decoration: none;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 0.5rem;
+}
+.popularcryptocurrencies_coin_bnb{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex: 1;    
+}
+.popularcryptocurrencies_coin_bnb > .popularcryptocurrencies_coins_name{
+    font-size: 1.6rem;
+    color: #1E2329;
+}
+.popularcryptocurrencies_coin_bnb > .popularcryptocurrencies_coins_symbol{
+    font-size: 1.4rem;
+    color: #707A8A;
+    line-height: 20px;
+}
+
+.popularcryptocurrencies_coins_price{
+    color: #1E2329;
+    font-size: 1.6rem;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+.popularcryptocurrencies_coins_change{
+    font-size: 1.6rem;
+    color: rgb(3, 166, 109);
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+.popularcryptocurrencies_coins_marketcap{
+    color: #1E2329;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+.popularcryptocurrencies_coins_bnb:hover{
+    background-color: #F5F5F5;
+    border-radius: 8px; 
+}
+.popularcryptocurrencies_title_2_mobile{
+    display: none;
+}
+.get_started_feature{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.get_started_feature_text{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 24px;
+}
+.get_started_feature_button{
+    text-decoration: none;
+    color:rgb(24, 26, 32);
+    padding: 1.4rem 6rem;
+    font-size: 1.6rem;
+    background-color: rgb(252, 213, 53);
+    word-break: keep-all;
+    border-radius: 4px;
+}
+@media(max-width: 480px){
+    .popularcryptocurrencies{
+        margin: 0 1rem;
+    }
+    .popularcryptocurrencies_title > .popularcryptocurrencies_title_1 {
+        font-size: 3rem;
+    }
+    .popularcryptocurrencies_title_2  > .popularcryptocurrencies_title_2_item_1 {
+        display: none;
+    }
+    /*------------------------subtitles-----------------------------*/
+    .popularcryptocurrencies_subtitles{
+        margin-top: 5rem;padding-top: 5px;
+    }
+    .popularcryptocurrencies_subtitles > .popularcryptocurrencies_subtitle_lastprice {
+        font-size: 1.4rem;
+        color: #707A8A;
+        flex: 1;
+        display: flex;
+        justify-content: center;
+    }
+    .popularcryptocurrencies_subtitles > .popularcryptocurrencies_subtitle_name_24change {
+        justify-content: center;
+    }
+    .popularcryptocurrencies_subtitles > .popularcryptocurrencies_subtitle_name_marketcap {
+        display: none;
+    }
+    /*------------------------coins-----------------------------*/
+    .popularcryptocurrencies_coins{
+        margin-top: 3rem;   
+    }
+    .popularcryptocurrencies_coins_bnb{
+        padding-left:0;
+        margin-bottom: 1rem;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+    }
+    .popularcryptocurrencies_coins_price{
+        justify-content: center;
+    }
+    .popularcryptocurrencies_coins_marketcap{
+        display: none;
+    }
+    .popularcryptocurrencies_title_2_mobile{
+        display: flex;
+        text-decoration: none;
+        align-items: center;
+        margin:2rem 0;
+    }
+    .popularcryptocurrencies_title_2_item_1{
+        display: flex;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        color: rgb(112, 122, 138);    
+    }
+    .popularcryptocurrencies_title_2_item_1 > svg {
+        width: 2.5rem;
+        height: 2.5rem;
+        fill: rgb(112, 122, 138);
+    }
+    .get_started_feature_button{
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        display: inline-flex;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        justify-content: center;
+        font-size: 16px;
+        font-family: inherit;
+        font-weight: 500;
+        text-align: center;
+        text-decoration: none;
+        outline: none;
+        padding: 12px 24px;
+        line-height: 24px;
+        word-break: keep-all;
+        color: rgb(24, 26, 32);
+        border-radius: 4px;
+        min-height: 24px;
+        border: none;
+        background-image: none;
+        background-color: rgb(252, 213, 53);
+        height: 48px;
+        min-width: 100%;
+    }
+}
+
+
+@media(max-width: 960px){
+    .popularcryptocurrencies_coin_bnb img{
+        width: 3rem;
+    }
+    .popularcryptocurrencies{
+        margin: 6rem 4rem;
+    }
+    .popularcryptocurrencies_coins_marketcap,
+    .popularcryptocurrencies_coins_change,
+    .popularcryptocurrencies_coins_price,
+    .popularcryptocurrencies_coins_name{
+        font-size: 1.4rem;
+    }
+    .popularcryptocurrencies_coin_bnb >.popularcryptocurrencies_coins_symbol{
+        font-size: 0.9rem;
+    }
+    .popularcryptocurrencies_coin_bnb{
+        gap: 0.2rem;
+    }
+    .popularcryptocurrencies_subtitles > .popularcryptocurrencies_subtitle_name_marketcap,
+    .popularcryptocurrencies_coins_marketcap{
+        display: none;
+    }
+    .popularcryptocurrencies_coins_bnb{
+        padding-left: 0;
+    }
+}
+
+@media(max-width: 380px) {
+    .popularcryptocurrencies_coins_price{
+        justify-content: flex-end;
+    }
+    .popularcryptocurrencies_subtitles > .popularcryptocurrencies_subtitle_name_24change {
+        justify-content: flex-end;
+    }
+    .popularcryptocurrencies_coins_change{
+        justify-content: flex-end;
+    }
+    .popularcryptocurrencies_subtitles > .popularcryptocurrencies_subtitle_lastprice{
+        justify-content: flex-end;
+    }
+    .popularcryptocurrencies{
+        margin: 0 1rem;
+    }
+    .popularcryptocurrencies_coins_bnb{
+        flex-shrink: 1;
+    }
+    .popularcryptocurrencies_coins_bnb > .popularcryptocurrencies_coin_bnb{
+        flex-shrink: 2;
+    }
+}
