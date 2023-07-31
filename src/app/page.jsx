@@ -5,6 +5,8 @@ import MarketingRaw from '@/Layouts/MarketingRaw/MarketingRaw';
 import Header from '@/Layouts/Header/Header';
 import News from '@/Layouts/News/News';
 import PopularCurrencies from '@/Layouts/PopularCurrencies/PopularCurrencies';
+import TradeFree from '@/Layouts/TradeFree/TradeFree';
+
 export default function Home() {
   return (
     <>
@@ -12,7 +14,8 @@ export default function Home() {
       <MarketingRaw />
       <Header />
       <News />
-      <PopularCurrencies/>
+      <PopularCurrencies />
+      <TradeFree/>
     </>
   );
 }

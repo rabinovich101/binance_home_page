@@ -1,0 +1,118 @@
+.trade_free_warper{
+    padding: 15rem;
+    border-radius: 4px;
+}
+.trade_free{
+    border-radius: 16px;
+    background-color: rgb(255, 253, 230);
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+.trade_free_img_warper{
+    padding: 4rem;
+    flex-basis: 40%;
+}
+.trade_free_description{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: flex-start;
+    justify-content: center;
+    flex-basis: 60%;
+}
+.trade_free_description_title{
+    font-weight: 600;
+    font-size: 3.2rem;
+    line-height: 4rem;
+}
+.item_1{
+    text-decoration: none;
+    color: rgb(30, 35, 41);
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 24px;
+    display: flex; 
+}
+.item_2{
+    text-decoration: none;
+    color: rgb(30, 35, 41);
+    font-weight: 400;
+    font-size: 1.85rem;
+    line-height: 24px;
+    display: flex;
+}
+.item_3{
+    text-decoration: none;
+    color: rgb(30, 35, 41);
+    font-weight: 500;
+    font-size: 1.85rem;
+    background-color: rgb(252, 213, 53);
+    padding: 1.2rem 2.4rem;
+    border-radius: 6px;
+    text-align: center;
+    align-self: center;
+}
+.item_2 > svg {
+    fill: rgb(118, 128, 143);
+}
+
+@media(max-width: 480px){
+    .trade_free_warper{
+        padding: 2rem;
+        margin-top: 4rem;
+    }
+    .trade_free{
+        flex-direction: column;
+        align-items: center;
+    }
+    .trade_free_description{
+        padding: 2rem;
+    }
+    .trade_free_description_title{
+        font-size: 3.6rem;
+    }
+    .item_1{
+        font-size: 1.85rem;
+    }
+    .item_3{
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        -webkit-box-pack: center;
+        justify-content: center;
+        box-sizing: border-box;
+        font-size: 16px;
+        text-align: center;
+        outline: none;
+        padding: 12px 24px;
+        min-width: 100%;
+    }
+}
+
+@media(max-width: 1130px) {
+    .trade_free_warper{
+        padding: 3rem;
+        margin-top: 4rem;
+    }
+}
+@media(max-width: 900px) {
+    .trade_free_warper{
+        padding: 0 4rem;
+        margin-top: 4rem;
+    }
+    .trade_free_description{
+        gap: 1.7rem;
+    }
+    .trade_free_description_title{
+        font-size: 2.3rem;
+    }
+    .item_1{
+        font-size: 1.4rem;
+    }
+    .item_2,
+    .item_3
+    {
+        font-size: 1.6rem;
+    }
+}
