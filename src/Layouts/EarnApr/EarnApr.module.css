@@ -1,0 +1,123 @@
+.earnapr{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 15rem;
+    gap: 2rem;   
+}
+.earnapr_title{
+    font-weight: 600;
+    font-size: 4rem;
+    line-height: 4.8rem;
+    color: #1E2329; 
+}
+.earnapr_desc{
+    color: #474D57;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 2.8rem;
+}
+.earnapr_boxs{
+    display: flex;
+    flex-wrap: wrap;
+    align-self: stretch;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-top: 5rem;
+}
+.earnapr_box{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: rgb(250, 250, 250);
+    border-radius: 16px;
+    padding: 3rem 3rem;
+    flex-shrink: 1;
+    flex: 1;
+    flex-basis: 23.4%;
+}
+.earnapr_box_title{
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: rgb(30, 35, 41);
+}
+.earnapr_box_precent{
+    color: rgb(3, 166, 109);
+    font-weight: 500;
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+}
+.earnapr_box_icons{
+    display: flex;
+    justify-content: space-between;
+}
+.earnapr_box_icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+.earnapr_box_icon > div{
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: rgb(30, 35, 41);
+}
+.earnapr_box_arrow{
+    width: 32px;
+    height: 32px;
+    background-color: rgb(234, 236, 239);
+    border-radius: 20px;
+}
+.earnapr_box_arrow > svg {
+    color: #929AA5;
+    width: 3rem;
+    height: 3rem;
+}
+.button_start_earn{
+    text-decoration: none;
+    margin-top: 32px;
+    padding: 1.2rem 4rem;
+    background-color: #FCD535;
+    border-radius: 4px;
+    color: #181A20;
+    font-size: 1.6rem;
+}
+@media(max-width: 480px){
+    .earnapr{
+        margin: 2rem;
+    }
+    .earnapr_box{
+        padding: 2rem;
+    }
+    .earnapr_box_precent{
+        font-size: 2.2rem;
+        font-weight: 600;
+    }
+    .button_start_earn{
+        display: inline-flex;
+        min-width: 100%;
+        font-size: 16px;
+        justify-content: center;
+        font-weight: 600;  
+    }
+}
+@media(max-width: 1240px) {
+    .earnapr{
+        margin: 15rem 7rem;
+    }
+}
+
+@media(max-width: 1100px) {
+    .earnapr{
+        margin: 15rem 5rem;
+    }
+}
+
+@media(max-width: 900px) {
+    .earnapr{
+        margin: 15rem 3rem;
+    }
+}

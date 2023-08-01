@@ -7,6 +7,7 @@ import News from '@/Layouts/News/News';
 import PopularCurrencies from '@/Layouts/PopularCurrencies/PopularCurrencies';
 import TradeFree from '@/Layouts/TradeFree/TradeFree';
 import CryptoPortfolio from '@/Layouts/CryptoPortfolio/CryptoPortfolio';
+import EarnApr from '@/Layouts/EarnApr/EarnApr';
 
 export default function Home() {
   return (
@@ -17,7 +18,8 @@ export default function Home() {
       <News />
       <PopularCurrencies />
       <TradeFree />
-      <CryptoPortfolio/>
+      <CryptoPortfolio />
+      <EarnApr/>
     </>
   );
 }
