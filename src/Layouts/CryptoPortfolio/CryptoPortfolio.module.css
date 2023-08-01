@@ -1,0 +1,275 @@
+.crypto_portfolio_warper{
+    margin-top: 3rem;
+}
+.crypto_portfolio{
+    display: flex;
+    justify-content: flex-start;
+    gap: 5rem;
+    margin-inline: 15rem;
+}
+.crypto_portfolio_left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 7.43rem;
+}
+.crypto_portfolio_left_header_title{
+    font-weight: 600;
+    font-size: 4rem;
+    line-height: 4.8rem; 
+}
+.crypto_portfolio_left_header_description{
+    font-weight: 400;
+    font-size: 1.7rem;
+    line-height: 2.8rem;
+    margin-top: 1.6rem;
+}
+.phone_img_mobile{
+    display: none; 
+}
+.verfiy_identy{
+    display: flex;
+    align-items: center;
+    gap: 2rem;    
+}
+.verfiy_identy > svg{
+    width: 8rem;
+    height: 8rem;
+    flex-shrink: 1;       
+}
+.verfiy_identy_text{
+    flex-shrink: 1;
+    flex-basis: 65%;
+    word-break: break-word;
+}
+.verfiy_identy_text_title{
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 3.2rem;    
+}
+.verfiy_identy_text_desc{
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+}
+.fund_account{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.fund_account > svg{
+    width: 8rem;
+    height: 8rem;
+    flex-shrink: 1;
+}
+.fund_account_text{
+    flex-shrink: 1;
+    flex-basis: 65%;
+    word-break: break-word;
+}
+.fund_account_text > svg{
+    width: 8rem;
+    height: 8rem;
+}
+.fund_account_text_title{
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+}
+.fund_account_text_desc{
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+}
+.start_trading{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.start_trading  > svg{
+    width: 8rem;
+    height: 8rem;
+    flex-shrink: 1;
+}
+.start_trading_text{
+    flex-shrink: 1;
+    flex-basis: 65%;
+    word-break: break-word;   
+}
+.start_trading_text > svg {
+    width: 8rem;
+    height: 8rem;
+}
+.start_trading_text_title{
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+}
+.start_trading_text_desc{
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+}
+.button{
+    text-decoration: none;
+    background-color: #FCD535;
+    color: #181A20;
+    border-radius: 4px;
+    min-height: 24px;
+    min-width: 200px;
+    font-size: 1.6rem;
+    font-weight: 500;
+    padding-bottom: 1.2rem;
+    padding-top: 1.2rem;
+    text-align: center;
+}
+.crypto_portfolio_right > img{
+    width: 33.5rem;
+}
+.crypto_portfolio_right{
+    flex-shrink: 0;
+    margin: auto;
+}
+@media(max-width: 1300px){
+    .crypto_portfolio_warper{
+        margin-top: 5rem;
+    }
+    .crypto_portfolio_left{
+        gap: 5rem;
+    }
+    .crypto_portfolio_right{
+        max-height: 45rem;
+        width: 25rem;
+    }
+    .crypto_portfolio_right > img{
+        max-height: 45rem;
+    }
+    .crypto_portfolio{
+        margin-inline: 9rem;
+    }
+    .crypto_portfolio{
+        gap: 3rem;
+    }
+}
+@media(max-width: 700px){
+    .crypto_portfolio{
+        flex-direction: column;
+    }
+    .crypto_portfolio_left{
+        order: 1;
+    }
+    .crypto_portfolio_right{
+        justify-content: center;
+    }
+    .start_trading,
+    .fund_account,
+    .verfiy_identy{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .button{
+        display: flex;
+        min-width: 100%;
+        justify-content: center;
+        font-size: 16px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        line-height: 24px; 
+    }
+
+}
+@media(max-width: 1150px){
+    .crypto_portfolio{
+        margin-inline: 3rem;
+        gap: 1em;
+    }
+    .crypto_portfolio_left_header_title{
+        font-size: 3rem;
+    }
+    .crypto_portfolio_left_header_description{
+        font-size: 1.4rem;
+    }
+    .start_trading > svg,
+    .fund_account > svg,
+    .verfiy_identy >svg {
+        width: 6rem;
+        height: 6rem;
+    }
+    .verfiy_identy_text_title,
+    .start_trading_text_title,
+    .fund_account_text_title{
+        font-size: 2rem;
+    }
+    .verfiy_identy_text_dexc,
+    .start_trading_text_dexc,
+    .fund_account_text_dexc{
+        font-size: 1.45rem;
+    }
+    
+}
+
+@media(max-width: 480px) {
+    .crypto_portfolio{
+        margin: 2.5rem;
+    }
+    .crypto_portfolio_left-header_title{
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+    .phone_img_mobile{
+        display: flex;
+        align-self: center; 
+    }
+    .phone_img_mobile > img {
+        width: 190px;
+        display: flex;
+    }
+    .verfiy_identy{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .verfiy_identy > svg{
+        width: 48px;
+        height: 48px;    
+    }
+    .fund_account{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .fund_account_text > svg{
+        width: 48px;
+        height: 48px;
+    }
+    .start_trading{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .start_trading_text > svg,
+    .start_trading  > svg{
+        width: 48px;
+        height: 48px;
+    }
+    .button{
+        display: inline-flex;
+        min-width: 100%;
+        justify-content: center;
+        font-size: 16px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        line-height: 24px; 
+    }
+    .crypto_portfolio_right{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+

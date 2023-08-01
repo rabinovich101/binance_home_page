@@ -6,6 +6,7 @@ import Header from '@/Layouts/Header/Header';
 import News from '@/Layouts/News/News';
 import PopularCurrencies from '@/Layouts/PopularCurrencies/PopularCurrencies';
 import TradeFree from '@/Layouts/TradeFree/TradeFree';
+import CryptoPortfolio from '@/Layouts/CryptoPortfolio/CryptoPortfolio';
 
 export default function Home() {
   return (
@@ -15,7 +16,8 @@ export default function Home() {
       <Header />
       <News />
       <PopularCurrencies />
-      <TradeFree/>
+      <TradeFree />
+      <CryptoPortfolio/>
     </>
   );
 }
