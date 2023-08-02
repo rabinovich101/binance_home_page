@@ -8,6 +8,7 @@ import PopularCurrencies from '@/Layouts/PopularCurrencies/PopularCurrencies';
 import TradeFree from '@/Layouts/TradeFree/TradeFree';
 import CryptoPortfolio from '@/Layouts/CryptoPortfolio/CryptoPortfolio';
 import EarnApr from '@/Layouts/EarnApr/EarnApr';
+import Support from '@/Layouts/Support/Support';
 
 export default function Home() {
   return (
@@ -19,7 +20,8 @@ export default function Home() {
       <PopularCurrencies />
       <TradeFree />
       <CryptoPortfolio />
-      <EarnApr/>
+      <EarnApr />
+      <Support/>
     </>
   );
 }
