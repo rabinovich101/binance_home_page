@@ -9,6 +9,7 @@ import TradeFree from '@/Layouts/TradeFree/TradeFree';
 import CryptoPortfolio from '@/Layouts/CryptoPortfolio/CryptoPortfolio';
 import EarnApr from '@/Layouts/EarnApr/EarnApr';
 import Support from '@/Layouts/Support/Support';
+import Footer from '@/Layouts/Footer/Footer';
 
 export default function Home() {
   return (
@@ -21,7 +22,8 @@ export default function Home() {
       <TradeFree />
       <CryptoPortfolio />
       <EarnApr />
-      <Support/>
+      <Support />
+      <Footer/>
     </>
   );
 }

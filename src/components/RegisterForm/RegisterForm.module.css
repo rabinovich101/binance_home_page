@@ -1,0 +1,112 @@
+.register_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.register_section > .register_section_warp {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+.register_section_warp > .register_section_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    flex: 1;
+    gap: 5rem;
+    border-radius: 4px;
+    background-color: white;
+}
+.register_section_right > h2 {
+    font-size: 2.4rem;
+    font-weight: 600;
+    align-self: center;
+}
+.register_section_right > .form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.1rem;
+    margin: 0 clamp(0rem, 11vw, 20rem);
+}
+.form > div {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+div > .label_form {
+    font-size: 1.25rem;
+    position: absolute;
+    left: 1rem;
+    top: 0.8rem;
+    padding: 0 0.5rem;
+    cursor: text;
+    transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+    background-color: white;
+}
+div > .input_form {
+    height: 4rem;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 1.4rem;
+    border: 1.6px solid #1f1e1e;
+    color: #666565;
+    text-align: center;
+}
+div > .input_form::placeholder {
+    color: #b2b0b0;
+}
+div > .input_form:focus-visible ~ .label_form, div > .input_form:not(:placeholder-shown).input_form:not(:focus-visible) ~ .label_form {
+    top: -0.5rem;
+    font-size: 1rem;
+    left: 0.8rem;
+}
+div > .input_form:focus-visible {
+    border: 3px solid #f70482;
+    outline: none;
+    transition: border 0.15s ease-in;
+}
+.form > button {
+    background-color: #c31b72;
+    border: none;
+    padding: 1em 2em;
+    border-radius: 4px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}
+.form > button:hover {
+    background-color: #bf387c;
+}
+.form > .login_desc {
+    display: none;
+}
+.form > .login_button {
+    display: none;
+}
+.register_section_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 5rem;
+    flex: 1;
+    background-color: purple;
+    background-image: url("../../../public/galaxy-7040416.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 4px;
+    padding: 5rem;
+}
+.register_section_left > .login_button {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-radius: 4px;
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding: 1em 2em;
+}

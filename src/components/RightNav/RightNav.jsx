@@ -54,8 +54,8 @@ const RightNav = ({ derivatives, buyCrypto, markets, institutional, earn, trade,
             </button>
             <nav className={`${styles.nav} nav`} id="nav" data-visible="false">
                 <ul  className={`${styles.right_side} right_side`}>
-                    <li><Link href="/" className={`${styles.log_in} ${styles.button_effect}`}>Log In</Link></li>
-                    <li><Link href="/" className={`${styles.register} ${styles.button_effect}`}>Register</Link></li>
+                    <li><Link href="/login" className={`${styles.log_in} ${styles.button_effect}`}>Log In</Link></li>
+                    <li><Link href="/register" className={`${styles.register} ${styles.button_effect}`}>Register</Link></li>
                     <li className={styles.downloads}>Downloads</li>
                     <li className={styles.language}>English</li>
                     <li className={styles.currency}>| USD |</li>
