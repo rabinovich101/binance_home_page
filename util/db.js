@@ -1,10 +1,10 @@
-const mysql = require('mysql');
+import mysql from "mysql";
 
 const pool  = mysql.createPool({
     connectionLimit : 1000,
     host            : "localhost",
     user            : "root",
-    password        : "123456",
+    password        : "Xx123456",
     database: "next_trading_platform",
 });
 

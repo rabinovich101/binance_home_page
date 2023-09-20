@@ -32,6 +32,13 @@
   ul{
     list-style: none;
   }
+
+  .spinner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
   
   @media (max-width: 480px) {
     html{
